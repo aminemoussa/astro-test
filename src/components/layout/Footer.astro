@@ -1,4 +1,4 @@
----
+---{/*
 import { getCollection } from "astro:content";
 
 // Filter blog entries with 'draft: false' & date before current date
@@ -10,7 +10,7 @@ const publishedBlogEntries = await getCollection("blog", ({ data }) => {
 publishedBlogEntries.sort(function (a, b) {
   return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
 });
-{/*
+
 const footerLinks = [
   {
     header: 'About Us',
