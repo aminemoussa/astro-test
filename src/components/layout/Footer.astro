@@ -10,7 +10,7 @@ const publishedBlogEntries = await getCollection("blog", ({ data }) => {
 publishedBlogEntries.sort(function (a, b) {
   return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
 });
-
+{/*
 const footerLinks = [
   {
     header: 'About Us',
@@ -93,7 +93,7 @@ const footerLinks = [
   },
 ];
 ---
-
+*/}
 <!-- ====== Footer Section Start -->
 <footer
   class="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
