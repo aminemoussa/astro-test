@@ -12,14 +12,16 @@
   "dependencies": {
     "@astrojs/tailwind": "^5.0.0",
     "@fontsource-variable/inter": "^5.0.8",
+    "@xata.io/client": "^0.29.3",
     "astro": "^3.6.4",
     "astro-compress": "^2.0.15",
-    "swiper": "^11.0.4",
-    "tailwindcss": "^3.3.3"
+    "firebase-tools": "^13.5.1",
+    "swiper": "^11.0.4"
   },
   "devDependencies": {
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",
-    "prettier-plugin-tailwindcss": "^0.5.4"
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "^3.4.1"
   }
 }
