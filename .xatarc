@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Moussa-amine-s-workspace-d2bhrm.eu-central-1.xata.sh/db/PeerSocDataBase",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
